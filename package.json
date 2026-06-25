@@ -1,0 +1,23 @@
+{
+  "name": "social-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo 'No lint configured yet'",
+    "build": "echo 'No build script configured yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maedotbbb/Social-Media.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Maedotbbb/Social-Media/issues"
+  },
+  "homepage": "https://github.com/Maedotbbb/Social-Media#readme"
+}

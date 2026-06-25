@@ -2,6 +2,7 @@
   "name": "social-media",
   "version": "1.0.0",
   "private": true,
+  "type": "commonjs",
   "description": "",
   "main": "index.js",
   "workspaces": [
@@ -9,7 +10,9 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npm run lint --workspaces --if-present",
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
     "build": "npm run build --workspaces --if-present"
   },
   "repository": {
@@ -19,9 +22,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Maedotbbb/Social-Media/issues"
   },
-  "homepage": "https://github.com/Maedotbbb/Social-Media#readme"
+  "homepage": "https://github.com/Maedotbbb/Social-Media#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.4"
+  }
 }

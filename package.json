@@ -1,12 +1,16 @@
 {
   "name": "social-media",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "echo 'No lint configured yet'",
-    "build": "echo 'No build script configured yet'"
+    "lint": "npm run lint --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
   },
   "repository": {
     "type": "git",

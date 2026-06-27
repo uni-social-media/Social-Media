@@ -46,13 +46,13 @@ docker compose down
 
 To connect your server application to this database, you will use a connection string. In your server's environment configuration (e.g., a `.env` file), you should set:
 
-````env
+```env
 MONGO_URI=mongodb://admin:password@localhost:27017/social_media?authSource=admin
-
-### Step 4: Run the Application
+```
+### Step 3: Run the Application
 
 Now that your database container is running and your configuration is set, launch the development servers with:
 
 ```bash
 npm run dev
-````
+```

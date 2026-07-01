@@ -1,4 +1,12 @@
+# Node dependencies
 node_modules/
+npm-debug.log*
+
+# Environment variables (Secrets)
 .env
-dist/
+.env.local
+.env.production
+
+# Operating system files
 .DS_Store
+Thumbs.db

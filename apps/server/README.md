@@ -14,3 +14,4 @@ PORT=5000
 MONGO_URI=mongodb://admin:password@localhost:27017/social_media?authSource=admin
 JWT_SECRET=your_temporary_local_secret_string
 CLIENT_URL=http://localhost:3000
+```

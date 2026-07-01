@@ -1,0 +1,7 @@
+{
+  "name": "@social-media/shared",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "type": "module"
+}

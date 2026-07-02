@@ -49,6 +49,7 @@ To connect your server application to this database, you will use a connection s
 ```env
 MONGO_URI=mongodb://admin:password@localhost:27017/social_media?authSource=admin
 ```
+
 ### Step 3: Run the Application
 
 Now that your database container is running and your configuration is set, launch the development servers with:

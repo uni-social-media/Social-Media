@@ -6,7 +6,14 @@ import Register from './pages/Register';
 export default function App() {
   return (
     <Router>
-      <nav style={{ padding: '20px', background: '#eee', display: 'flex', gap: '15px' }}>
+      <nav
+        style={{
+          padding: '20px',
+          background: '#eee',
+          display: 'flex',
+          gap: '15px',
+        }}
+      >
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
         <Link to="/register">Register</Link>
